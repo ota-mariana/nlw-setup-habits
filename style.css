@@ -18,6 +18,9 @@ header {
   font-size: 1.2rem;
   font-family: 'Inter';
   font-weight: 600;
+  position: fixed;
+  background-color: #09090a;
+  width: 100%;
 }
 
 button {
@@ -53,7 +56,8 @@ input:checked {
 
 form {
   display: flex;
-  padding: 0 3rem;
+  padding: 11.4rem 3rem 3rem;
+  width: fit-content;
 }
 
 .habits {
@@ -83,6 +87,7 @@ form {
   justify-content: center;
   align-items: center;
   gap: 1.5rem;
+  color: #ff8e03;
 }
 .day div {
   font-family: 'Roboto Mono', monospace;
@@ -90,4 +95,10 @@ form {
   line-height: 125%;
   color: #A1A1AA;
   margin-bottom: 0.5rem;
+}
+
+@media (max-width: 570px) {
+  button div {
+    display: none;
+  }
 }

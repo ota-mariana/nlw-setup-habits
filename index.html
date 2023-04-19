@@ -4,13 +4,16 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Roboto+Mono:wght@700&display=swap" rel="stylesheet" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="stylesheet" href="./style.css">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Roboto+Mono:wght@700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./style.css" />
     <title>Habits</title>
   </head>
   <body>
@@ -18,38 +21,33 @@
       <h1>Habits</h1>
 
       <button>
-        <img src="./assets/plusIcon.svg" alt="ícone com sinal de adicionar">
-        Registrar o meu dia
+        <img src="./assets/plusIcon.svg" alt="ícone com sinal de adicionar" />
+        <div>Registrar o meu dia</div>
       </button>
     </header>
-    <form>
+    <form id="form-habits">
       <div class="habits">
-        <div class="habit">
-          <img src="./assets/runIcon.svg" alt="ícone de pessoa correndo">
+        <div class="habit" data-name="exercise">
+          <img src="./assets/runIcon.svg" alt="ícone de pessoa correndo" />
         </div>
-        <div class="habit">
-          <img src="./assets/studyIcon.svg" alt="ícone de livro">
+        <div class="habit" data-name="food">
+          <img src="./assets/carrotIcon.svg" alt="ícone de cenoura" />
         </div>
-        <div class="habit">
-          <img src="./assets/heartIcon.svg" alt="ícone de coração">
+        <div class="habit" data-name="study">
+          <img src="./assets/studyIcon.svg" alt="ícone de livro" />
+        </div>
+        <div class="habit" data-name="meditation">
+          <img src="./assets/heartIcon.svg" alt="ícone de coração" />
+        </div>
+        <div class="habit" data-name="sleep">
+          <img src="./assets/moonIcon.svg" alt="ícone de lua" />
         </div>
       </div>
 
-      <div class="days">
-        <div class="day">
-          <div>03/01</div>
-          <input type="checkbox" name="exercise" />
-          <input type="checkbox" name="study" />
-          <input type="checkbox" name="meditation" />
-        </div>
+      <div class="days"></div>
+    </form>
 
-        <div class="day">
-          <div>04/01</div>
-          <input type="checkbox" name="exercise" />
-          <input type="checkbox" name="study" />
-          <input type="checkbox" name="meditation" />
-        </div>
-      </div>
-    </form>    
+    <script src="https://cdn.jsdelivr.net/gh/maykbrito/libs/NLWSetup/source/NLWSetup.js"></script>
+    <script src="./script.js"></script>
   </body>
 </html>
