@@ -33,7 +33,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 O Habits é um app para ajudar no acompanhamento dos hábitos.
 
-- [Visite o projeto online](https://https://ota-mariana.github.io/nlw-setup-habits/)
+- [Visite o projeto online](https://ota-mariana.github.io/nlw-setup-habits/)
 
 ## 🔖 Layout
 
