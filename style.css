@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #09090a;
+  color: white;
+
+  height: 100vh;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 3rem;
+  font-size: 1.2rem;
+  font-family: 'Inter';
+  font-weight: 600;
+}
+
+button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem;
+  padding: 0.3rem 1.2rem;
+  border-radius: 8px;
+  border: 1px solid #8b5cf6;
+  background-color: transparent;
+  color: white;
+  font-size: 1rem;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+}
+
+input {
+  appearance: none;
+  -webkit-appearance: none;
+
+  width: 4rem;
+  height: 4rem;
+  border-radius: 8px;
+  border: 1px solid #8b5cf6;
+  background-color: #181818;
+}
+
+input:checked {
+  background-color: #8b5cf6;
+  border: 2px solid #A78BFA;
+}
+
+form {
+  display: flex;
+  padding: 0 3rem;
+}
+
+.habits {
+  display: flex;
+  flex-direction: column;
+  margin-right: 1.5rem;
+  margin-top: 3.75rem;
+  gap: 1.5rem;
+}
+
+.habit {
+  width: 4rem;
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.days {
+  display: flex;
+  gap: 3rem;
+}
+
+.day {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+}
+.day div {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 1.25rem;
+  line-height: 125%;
+  color: #A1A1AA;
+  margin-bottom: 0.5rem;
+}

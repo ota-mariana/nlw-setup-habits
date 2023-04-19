@@ -1,13 +1,55 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Habits</title>
-</head>
-<body>
-  <h1>hello world</h1>
-  
-</body>
+<html lang="pt-br">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Roboto+Mono:wght@700&display=swap" rel="stylesheet" />
+
+    <link rel="stylesheet" href="./style.css">
+    <title>Habits</title>
+  </head>
+  <body>
+    <header>
+      <h1>Habits</h1>
+
+      <button>
+        <img src="./assets/plusIcon.svg" alt="ícone com sinal de adicionar">
+        Registrar o meu dia
+      </button>
+    </header>
+    <form>
+      <div class="habits">
+        <div class="habit">
+          <img src="./assets/runIcon.svg" alt="ícone de pessoa correndo">
+        </div>
+        <div class="habit">
+          <img src="./assets/studyIcon.svg" alt="ícone de livro">
+        </div>
+        <div class="habit">
+          <img src="./assets/heartIcon.svg" alt="ícone de coração">
+        </div>
+      </div>
+
+      <div class="days">
+        <div class="day">
+          <div>03/01</div>
+          <input type="checkbox" name="exercise" />
+          <input type="checkbox" name="study" />
+          <input type="checkbox" name="meditation" />
+        </div>
+
+        <div class="day">
+          <div>04/01</div>
+          <input type="checkbox" name="exercise" />
+          <input type="checkbox" name="study" />
+          <input type="checkbox" name="meditation" />
+        </div>
+      </div>
+    </form>    
+  </body>
 </html>
